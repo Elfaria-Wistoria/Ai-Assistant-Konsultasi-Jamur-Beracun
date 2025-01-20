@@ -1,0 +1,13 @@
+Vectorstore successfully loaded.
+Vectorstore successfully loaded.
+Vectorstore successfully loaded.
+Vectorstore successfully loaded.
+Error in get_response: One input key expected got ['question', 'context']
+Error in get_response: One input key expected got ['question', 'context']
+Vectorstore successfully loaded.
+Vectorstore successfully loaded.
+Vectorstore successfully loaded.
+Vectorstore successfully loaded.
+Error in get_response: One input key expected got ['context', 'question']
+Vectorstore successfully loaded.
+Error in get_response: One input key expected got ['question', 'context']

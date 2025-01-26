@@ -15,10 +15,10 @@
 
 ---
 
-## 🛠️ Technologies Used
+## 🔧 Technologies Used
 
 - **Framework**: Flask
-- **AI Models**: 
+- **AI Models**:
   - Google Generative AI (`gemini-1.5-flash`)
   - Hugging Face Embeddings (`sentence-transformers/bert-base-nli-max-tokens`)
 - **Database**: Chroma for vector search
@@ -41,3 +41,98 @@
 ├── .env                   # Environment variables
 ├── requirements.txt       # Dependencies
 └── README.md              # Project documentation
+```
+
+---
+
+## 🔧 Setup and Installation
+
+Follow these steps to set up and run the project:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/prof-mushmate.git
+   cd prof-mushmate
+   ```
+
+2. **Create and activate a virtual environment**:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Add environment variables**:
+   - Create a `.env` file and add your API keys and configurations:
+     ```
+     FLASK_SECRET_KEY=your_secret_key
+     GOOGLE_API_KEY=your_google_api_key
+     ```
+
+5. **Run the application**:
+   ```bash
+   python app.py
+   ```
+
+6. **Access the application**:
+   Open your browser and go to: [http://localhost:5000](http://localhost:5000)
+
+---
+
+## 📡 API Endpoints
+
+- **`GET /`**: Renders the homepage.
+- **`GET /skinthinc`**: Displays the `skinthinc.html` page.
+- **`GET /get`**: Processes user messages and returns chatbot responses.
+- **`GET /load_history`**: Retrieves the chat history for the session.
+- **`POST /clear_history`**: Clears the chat history and memory.
+
+---
+
+## 💪 Future Enhancements
+
+- Add support for multiple language models.
+- Improve vectorstore with additional datasets.
+- Enhance frontend design for better user experience.
+- Integrate multimedia support (e.g., images of mushrooms).
+- Deploy the application using Docker or cloud platforms.
+
+---
+
+## 🙏 Contribution
+
+Contributions are welcome! If you'd like to improve the project or add new features, follow these steps:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your message"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Create a Pull Request.
+
+
+---
+
+## 🙌 Acknowledgments
+
+- [LangChain](https://www.langchain.com/)
+- [Hugging Face](https://huggingface.co/)
+- [Chroma](https://www.trychroma.com/)
+- [Flask](https://flask.palletsprojects.com/)
+- The amazing open-source community!
+
+---
+
+Start exploring Prof.MushMate and revolutionize the way you learn about toxic mushrooms! 🌱🍄
+
